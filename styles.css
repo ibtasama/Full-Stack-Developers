@@ -9,34 +9,6 @@ body {
   background-color: white;
 }
 
-nav {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: right;
-    background-color: #eee;
-}
-
-nav a {
-  justify-content: center;
-  min-width: 9rem;
-  padding: 0.5rem;
-  text-align: center;
-  text-decoration: none;
-  color: #555;
-}
-
-nav a[aria-current='page'] {
-  background-color: #d4d4d4;
-  display: inline-block;
-  justify-content: left;
-  min-width: 9rem;
-  padding: 0.5rem;
-  text-align: center;
-  text-decoration: none;
-  color: #555;
-}
-
 main {
   padding: 1rem;
 }
