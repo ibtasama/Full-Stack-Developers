@@ -7,13 +7,18 @@ body {
   font-family: system-ui, sans-serif;
   color: black;
   background-color: white;
+  font-size: small;
 }
+.navbar-brand {
+  font-size: small;
+  display: block;
+}
+.navbar-collapsee {
 
+}
 main {
   padding: 1rem;
+  
 }
 
-h1 {
-  font-weight: bold;
-  font-size: 1.5rem;
-}
+
