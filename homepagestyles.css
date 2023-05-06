@@ -22,14 +22,14 @@ body {
   flex-wrap: wrap;
 }
 
-#sidebar {
-  height: 800px;
-  flex-grow: 3;
-
-}
-#content {
+#content1 {
   height: 800px;
   flex-grow: 7;
+
+}
+#content2 {
+  height: 800px;
+  flex-grow: 3;
   min-width: 400px;
 
 }
