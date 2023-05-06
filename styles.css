@@ -6,19 +6,16 @@ body {
   margin: 0;
   font-family: system-ui, sans-serif;
   color: black;
-  background-color: white;
+  background-color: #f4c4c4;
   font-size: small;
 }
+
 .navbar-brand {
   font-size: small;
   display: block;
+  transition: 1s;
 }
-.navbar-collapsee {
 
-}
 main {
   padding: 1rem;
-  
 }
-
-
