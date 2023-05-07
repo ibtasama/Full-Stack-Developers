@@ -24,6 +24,20 @@ main {
   height: 100px;
 }
 
+.spinner-border spinner-border-sm{
+ 
+  display: block;
+  width: 7.5rem;
+  height: 1px;
+  overflow: hidden;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transition: opacity .6s cubic-bezier(.075,.82,.165,1);
+  z-index: 100;
+  pointer-events: none;
+}
+
 #container {
   display: flex;
   flex-wrap: wrap;
