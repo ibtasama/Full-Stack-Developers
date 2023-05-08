@@ -1,5 +1,5 @@
 body {
-  margin: 0;
+  margin: auto;
   font-family: system-ui, sans-serif;
   color: black;
   background-color: #f4c4c4;
@@ -67,6 +67,10 @@ ul.topnav.right {
   ul.topnav {
     float: none;
   }
+}
+.work about contacts {
+  justify-content: center;
+  text-align: center;
 }
 
 .spinner-border spinner-border-sm {
