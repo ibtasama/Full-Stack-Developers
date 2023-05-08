@@ -13,7 +13,6 @@ body :active {
 
 .navbar-brand {
   font-size: small;
-  display: block;
   transition: 1s;
 }
 main {
@@ -38,23 +37,20 @@ main {
 }
 
 #container {
-  display: flex;
+  display: block;
   flex-wrap: wrap;
   align-items: stretch;
   border-bottom: 2px;
 }
 
 #content1 {
+  justify-content: center;
   font-size: 3rem;
   height: 800px;
   border-bottom: 2px solid rgb(146, 144, 144);
   flex-grow: 3;
 }
-@media (max-width: 499px) .animationvideo {
-  padding-right: 20px;
-  margin-top: -20px;
-  margin-bottom: -46px;
-}
+
 
 .btn {
   -webkit-text-fill-color: rgb(254, 254, 255);
@@ -65,18 +61,12 @@ main {
   transition-duration: 3s;
   position: absolute !important;
 }
-.playlabelcircle {
-  width: 120px;
-  height: 120px;
-  margin-top: -60px;
-  margin-left: -60px;
+
+video{
+  width: 70%;
+  height: auto;
 }
 
-.c-home-header-play__circle {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-}
 
 #content2 {
   font-size: 3rem;
