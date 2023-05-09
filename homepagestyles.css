@@ -38,46 +38,6 @@ body {
   overflow: hidden;
   background-color: rgb(245, 237, 237);
 }
-/* .ul.topnav {
-  position: -webkit-sticky;
-  position: sticky;
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #333;
-}
-
-ul.topnav {
-  float: left;
-}
-
-ul.topnav a {
-  display: inline;
-  color: rgb(3, 3, 3);
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-ul.topnav a:hover:not(.active) {
-  background-color: rgb(248, 247, 247);
-}
-
-ul.topnav a.active {
-  background-color: grey;
-}
-
-ul.topnav.right {
-  float: right;
-}
-
-@media screen and (max-width: 600px) {
-  ul.topnav.right,
-  ul.topnav {
-    float: none;
-  }
-} */
 
 .spinner-border spinner-border-sm {
   display: block;
@@ -93,6 +53,7 @@ ul.topnav.right {
 }
 
 #container {
+  position: relative;
   display: block;
   flex-wrap: wrap;
   align-items: stretch;
@@ -104,7 +65,7 @@ ul.topnav.right {
   font-size: 3rem;
   height: 800px;
   border-bottom: 2px solid rgb(146, 144, 144);
-  flex-grow: 3;
+  
 }
 
 .btn {
@@ -117,9 +78,16 @@ ul.topnav.right {
   position: absolute !important;
 }
 
-video {
+.animation {
   width: 70%;
   height: auto;
+}
+
+#centerContent video{
+  font-size: 10px;
+  justify-content: left;
+  width: 30%;
+  height: 30px;
 }
 
 #content2 {
@@ -129,14 +97,25 @@ video {
   min-width: 400px;
   border-bottom: 1px solid rgb(146, 144, 144);
 }
+img {
+position: fixed;
+bottom: 30px;
+left: 0;
+width: 100px;
+}
 
 #footer {
+  font-size: 30px;
+  left: 0;
+  bottom: 0;
   height: 100px;
-  width: 100%;
-  background-color: dodgerblue;
+  width: 300%;
+  margin: auto;
+  margin-top: 10px;
   animation-duration: 100s;
   animation-play-state: running;
   animation-name: marquee;
+  border-bottom: 1px solid rgb(146, 144, 144);
 }
 
 .marquee {
@@ -150,15 +129,15 @@ video {
   position: absolute;
   display: block;
   width: 200%;
-  height: 30px;
+  height: 50px;
   overflow: hidden;
   animation: marquee 5s linear infinite;
- }
+}
 
 .marquee span {
   float: left;
-  width: 50%;
-  }
+  width: 100%;
+}
 
 @keyframes marquee {
   0% {
