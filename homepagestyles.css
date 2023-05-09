@@ -1,7 +1,7 @@
 body {
   margin: auto;
   font-family: system-ui, sans-serif;
-  color: black;
+  color: rgb(209, 4, 4);
   background-color: #f4c4c4;
   font-size: small;
   animation-name: backgroundcolour;
@@ -13,18 +13,23 @@ body {
 @keyframes backgroundcolour {
   0% {
     background-color: #f4c4c4;
+    color: rgb(209, 4, 4);
   }
   25% {
     background-color: #059191;
-  }
+    color: rgb(245, 240, 240);
+      }
   50% {
     background-color: rgb(245, 247, 246);
+    color: rgb(245, 240, 240);
   }
   70% {
     background-color: rgba(12, 11, 11, 0);
+    color: rgb(2, 104, 107);
   }
   100% {
     background-color: rgba(12, 11, 11, 0);
+    color: rgb(230, 247, 3);
   }
 }
 
@@ -53,7 +58,7 @@ body {
 }
 
 #container {
-  position: relative;
+
   display: block;
   flex-wrap: wrap;
   align-items: stretch;
@@ -61,9 +66,10 @@ body {
 }
 
 #content1 {
+  text-align: center;
   justify-content: center;
   font-size: 3rem;
-  height: 800px;
+  height: 900px;
   border-bottom: 2px solid rgb(146, 144, 144);
   
 }
@@ -78,26 +84,34 @@ body {
   position: absolute !important;
 }
 
-.animation {
-  width: 70%;
+Video {
+  width: 50%;
   height: auto;
 }
 
-#centerContent video{
-  font-size: 10px;
-  justify-content: left;
-  width: 30%;
-  height: 30px;
-}
 
-#content2 {
+.writeup {
+  position: absolute;
   font-size: 3rem;
+  text-align: center;
   right: 0%;
   height: 800px;
-  flex-grow: 7;
   min-width: 400px;
   border-bottom: 1px solid rgb(146, 144, 144);
 }
+Video {
+  width: 60%;
+  height: fit-content;
+  }
+
+.card-body{
+font-size: 15px;
+display: inline-block;
+position: absolute;
+-webkit-text-fill-color: rgb(209, 4, 4);
+}
+
+
 img {
 position: fixed;
 bottom: 30px;
@@ -106,6 +120,7 @@ width: 100px;
 }
 
 #footer {
+  position: fixed;
   font-size: 30px;
   left: 0;
   bottom: 0;
