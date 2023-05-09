@@ -6,7 +6,7 @@ body {
   font-size: small;
   animation-name: backgroundcolour;
   animation-duration: 30s;
-  animation-delay: 3s;
+  animation-delay: 4s;
   animation-iteration-count: infinite;
 }
 
