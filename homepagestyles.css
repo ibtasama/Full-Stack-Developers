@@ -66,8 +66,7 @@ body {
   font-size: 3rem;
   height: 900px;
   border-bottom: 2px solid rgb(146, 144, 144);
-  
-}
+  }
 
 .btn {
   -webkit-text-fill-color: rgb(254, 254, 255);
@@ -83,7 +82,6 @@ Video {
   width: 50%;
   height: auto;
 }
-
 
 .writeup {
   position: absolute;
@@ -106,6 +104,48 @@ position: absolute;
 -webkit-text-fill-color: rgb(209, 4, 4);
 }
 
+#content3{
+  text-align: right;
+  justify-content: right;
+  font-size: 3rem;
+  height: 900px;
+  border-bottom: 2px solid rgb(146, 144, 144);
+}
+.row {
+  -ms-flex: 50%; 
+  flex: 50%;
+  padding: 0 4px;
+  
+}
+
+.row img {
+  position: relative;
+  left:800px;
+  top:2px;
+  bottom: 0px;
+  right: 30px;
+  width: 100px;
+  border: none;
+  margin-top: 15px;
+  border-bottom-style: solid;
+  border-top-style: solid;
+}
+
+#content3 a{
+  font-size: medium;
+  font-weight: bold;
+}
+
+table{
+  position: relative;
+  font-size: small;
+  font-weight: lighter;
+  top:2px;
+  left:1000px;
+  bottom: 0px;
+  right: 10px;
+  width: 100px;
+   }
 
 img {
 position: fixed;
@@ -113,6 +153,7 @@ bottom: 30px;
 left: 0;
 width: 100px;
 }
+
 
 #footer {
   position: fixed;
