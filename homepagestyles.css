@@ -92,6 +92,7 @@ body {
 
 #content2 {
   font-size: 3rem;
+  right: 0%;
   height: 800px;
   flex-grow: 7;
   min-width: 400px;
