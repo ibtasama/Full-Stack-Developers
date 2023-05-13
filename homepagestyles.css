@@ -1,8 +1,6 @@
 body {
   margin: auto;
   font-family: Karla,Helvetica,Arial,sans-serif;;
-  color: rgb(56, 55, 55);
-  background-color: #f4c4c4;
   font-size: small;
   animation-name: backgroundcolour;
   animation-duration: 30s;
@@ -41,6 +39,8 @@ body {
   margin-top: 30px;
   border-bottom: 2px solid rgb(14, 13, 13);
  }
+ 
+
  .navbar-brand{
    float: left;
  }
@@ -51,6 +51,7 @@ body {
    padding-right: 50px;
    justify-content: center;
  }
+
 
 #container {
   margin-top: 30px;
@@ -92,6 +93,36 @@ Video {
   min-width: 400px;
   border-bottom: 1px solid rgb(146, 144, 144);
 }
+.card {
+  animation-name: backgroundcolour;
+  animation-duration: 30s;
+  animation-delay: 4s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes backgroundcolour {
+  0% {
+    background-color: #f4c4c4;
+    color: rgb(56, 55, 55);
+  }
+  25% {
+    background-color: #059191;
+    color: rgb(245, 240, 240);
+      }
+  50% {
+    background-color: rgb(245, 247, 246);
+    color: rgb(209, 3, 3);
+  }
+  70% {
+    background-color: rgba(12, 11, 11, 0);
+    color: rgb(2, 104, 107);
+  }
+  100% {
+    background-color: rgba(12, 11, 11, 0);
+    color: rgb(175, 248, 197);
+  }
+}
+
 Video {
   width: 60%;
   height: fit-content;
@@ -101,7 +132,35 @@ Video {
 font-size: 15px;
 display: inline-block;
 position: absolute;
--webkit-text-fill-color: rgb(209, 4, 4);
+}
+#customLink {
+  animation-name: backgroundcolour;
+  animation-duration: 30s;
+  animation-delay: 4s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes backgroundcolour {
+  0% {
+    background-color: #f4c4c4;
+    color: rgb(56, 55, 55);
+  }
+  25% {
+    background-color: #059191;
+    color: rgb(245, 240, 240);
+      }
+  50% {
+    background-color: rgb(245, 247, 246);
+    color: rgb(209, 3, 3);
+  }
+  70% {
+    background-color: rgba(12, 11, 11, 0);
+    color: rgb(2, 104, 107);
+  }
+  100% {
+    background-color: rgba(12, 11, 11, 0);
+    color: rgb(175, 248, 197);
+  }
 }
 
 #content3{
