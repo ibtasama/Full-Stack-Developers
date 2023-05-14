@@ -38,7 +38,7 @@ body {
   position: fixed;
   margin: none;
   margin-top: 30px;
-  border-bottom: 2px solid rgb(14, 13, 13);
+  border-bottom: 2px solid ;
   padding: 15px;
 }
 
@@ -88,7 +88,7 @@ i {
   justify-content: center;
   font-size: 3rem;
   height: 900px;
-  border-bottom: 2px solid rgb(146, 144, 144);
+  border-bottom: 2px solid ;
 }
 
 .btn {
@@ -113,7 +113,7 @@ Video {
   right: 0%;
   height: 800px;
   min-width: 400px;
-  border-bottom: 1px solid rgb(146, 144, 144);
+  border-bottom: 1px solid ;
 }
 .card {
   animation-name: backgroundcolour;
@@ -190,7 +190,7 @@ Video {
   justify-content: right;
   font-size: 3rem;
   height: 900px;
-  border-bottom: 2px solid rgb(146, 144, 144);
+  border-bottom: 2px solid ;
 }
 .row {
   -ms-flex: 50%;
@@ -246,7 +246,7 @@ img {
   animation-play-state: running;
   animation-iteration-count: infinite;
   animation-name: marquee;
-  border-bottom: 1px solid rgb(146, 144, 144);
+  border-bottom: 1px solid ;
 }
 
 .marquee {
