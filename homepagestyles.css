@@ -31,14 +31,13 @@ body {
   }
 }
 
-
 .container-fluid {
   font-size: 15px;
   display: inline-block;
   position: fixed;
   margin: none;
   margin-top: 30px;
-  border-bottom: 2px solid ;
+  border-bottom: 2px solid;
   padding: 15px;
 }
 
@@ -84,11 +83,28 @@ i {
 }
 
 #content1 {
+  position: relative;
   text-align: center;
   justify-content: center;
-  font-size: 3rem;
+  font-size: 50px;
+  font-weight: bolder;
   height: 900px;
-  border-bottom: 2px solid ;
+  border-bottom: 2px solid;
+}
+
+@keyframes slide {
+  0% {
+    top: 0;
+  }
+  25% {
+    top: -1.2em;
+  }
+  50% {
+    top: -2.4em;
+  }
+  75% {
+    top: -3.6em;
+  }
 }
 
 .btn {
@@ -113,7 +129,7 @@ Video {
   right: 0%;
   height: 800px;
   min-width: 400px;
-  border-bottom: 1px solid ;
+  border-bottom: 1px solid;
 }
 .card {
   animation-name: backgroundcolour;
@@ -190,7 +206,7 @@ Video {
   justify-content: right;
   font-size: 3rem;
   height: 900px;
-  border-bottom: 2px solid ;
+  border-bottom: 2px solid;
 }
 .row {
   -ms-flex: 50%;
@@ -218,7 +234,7 @@ Video {
 
 table {
   position: relative;
-  font-size: small;
+  font-size: large;
   font-weight: lighter;
   top: 2px;
   left: 1000px;
@@ -246,7 +262,7 @@ img {
   animation-play-state: running;
   animation-iteration-count: infinite;
   animation-name: marquee;
-  border-bottom: 1px solid ;
+  border-bottom: 1px solid;
 }
 
 .marquee {
