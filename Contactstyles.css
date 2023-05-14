@@ -32,16 +32,17 @@ body {
 }
 
 
-$font-size: 280px;
-$bg-color: #1e2134;
-$text-color: #30442a;
-
 .bg-text-container {
-transform: translateX(-50%);
-left: 50%;
+margin-top: 30%;
+transform: skewY(-5deg);
+left: 10%;
 position: absolute;
 z-index: -999;
-
+display: flex;
+font-family: montserrat;
+overflow-x: hidden;
+width: 100%;
+height: 100vh;
 }
 
 
@@ -57,17 +58,17 @@ display: block;
 position: relative;
 white-space: nowrap;
 
-  &.left {
+&.left{
 animation-direction: reverse;
 }
 }
 
-.animate-textleft {
+span{
 font-size: 280px;
 color: transparent;
--webkit-text-stroke: 2px #30442a;
+-webkit-text-stroke: 2px #7c7e09;
 text-transform: uppercase;
-display: inline-block;
+display: block;
 line-height: 0.75;
 min-width: auto;
 font-weight: 800;
@@ -79,7 +80,7 @@ padding: 0;
 
 }
 .btn-close {
- position: relative;
+position: relative;
 font-size: 30px;
 padding-left: 1%;
 margin-left: 3%;
@@ -87,7 +88,7 @@ transition: all 0.5s;
 cursor: pointer;
 }
 
-.btn-close span {
+.btn-close>span {
 text-transform: uppercase;
 font-size: 30px;
 font-weight: 300;
@@ -133,7 +134,7 @@ justify-content: space-between;
   text-transform: uppercase;
   margin: 0;
 }
-#infoemail{
+#infoemail>span{
   animation-name: backgroundcolour;
   animation-duration: 30s;
   animation-delay: 4s;
@@ -169,7 +170,9 @@ justify-content: space-between;
   padding: 20px 30px;
   width: 100%;
   vertical-align: top;
-  font-size: large;
+  font: 1em sans-serif;;
+  font-style: oblique;
+  font-size: 20px;
   transform: translate3d(0, 0, 0);
   border-bottom: 2px solid;
   border-top: 2px solid;
@@ -179,7 +182,7 @@ justify-content: space-between;
   -webkit-box-direction: normal;
   text-align: center;
   margin: 0;
-  font-size: 15px;
+  font-size: 30px;
   text-transform: uppercase;
   }
 #applyjobs {
