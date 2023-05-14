@@ -1,0 +1,83 @@
+body {
+  margin: auto;
+  font-family: Karla, Helvetica, Arial, sans-serif;
+  font-size: small;
+  animation-name: backgroundcolour;
+  animation-duration: 30s;
+  animation-delay: 4s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes backgroundcolour {
+  0% {
+    background-color: #f4c4c4;
+    color: rgb(56, 55, 55);
+  }
+  25% {
+    background-color: #059191;
+    color: rgb(245, 240, 240);
+  }
+  50% {
+    background-color: rgb(245, 247, 246);
+    color: rgb(209, 3, 3);
+  }
+  70% {
+    background-color: rgba(12, 11, 11, 0);
+    color: rgb(2, 104, 107);
+  }
+  100% {
+    background-color: rgba(12, 11, 11, 0);
+    color: rgb(175, 248, 197);
+  }
+}
+
+#Contact {
+  width: 100%;
+  -webkit-box-ordinal-group: 2;
+  -ms-flex-order: 1;
+  order: 1;
+  padding: 0;
+}
+.close-button {
+  transform: translate3d(0, 0, 0);
+  display: inline-block;
+  position: relative;
+  text-transform: uppercase;
+  font-weight: 300;
+}
+
+.contact-text {
+  padding: 100px 0 40px;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  flex-direction: column;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+}
+
+.text-description {
+  font-size: 30px;
+  font-family: perpetua titling mt, Georgia, times new roman, Times, serif;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.contact-address {
+  padding: 40px 0;
+  display: -webkit-box;
+  display: flex;
+  width: 100%;
+  vertical-align: top;
+  font-size: 1rem;
+  text-align: center;
+  transform: translate3d(0, 0, 0);
+}
+
+.contact-enquires {
+  -webkit-box-direction: normal;
+  text-align: center;
+  margin: 0;
+  font-size: 14px;
+  text-transform: uppercase;
+}

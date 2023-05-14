@@ -38,6 +38,7 @@ body {
   margin: none;
   margin-top: 30px;
   border-bottom: 2px solid rgb(14, 13, 13);
+  padding: 15px;
  }
  
 
@@ -51,7 +52,16 @@ body {
    padding-right: 50px;
    justify-content: center;
  }
-
+i {
+  vertical-align: sub;
+  width: 8px;
+  height: 8px;
+  bottom: 8px;
+  left: 2%;
+  top: 31px;
+  position: fixed;
+  color: rgb(43, 42, 42);
+}
 
 #container {
   margin-top: 30px;
