@@ -45,7 +45,7 @@ transition: all 0.5s;
 cursor: pointer;
 }
 
-span {
+.btn-close span {
 text-transform: uppercase;
 font-size: 30px;
 font-weight: 300;
